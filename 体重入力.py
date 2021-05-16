@@ -110,17 +110,3 @@ if __name__ == '__main__':
             worksheet.cell(rows,count).value = float(d)
             count += 1
         workbook.save(filename)
-
-
-
-
-
-    # input_judg = True
-    # while (input_judg == True):
-    #     # 体重入力(kg)
-    #     weight = input("体重(kg)を入力してください\n")
-    #     if DecimalJudg(weight) == False:
-    #         input_judg = True
-    #         continue
-    #     input_judg = False
-    # input_judg = True
